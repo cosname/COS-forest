@@ -288,7 +288,8 @@ ul.nav-menu ul a:hover,
 }
 
 .menu-toggle {
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
+    color: #888888;
 	display: none;
 }
 
@@ -652,21 +653,22 @@ ul.nav-menu ul a:hover,
 
 	.toggled-on .nav-menu li > ul a {
 		/* color: #141412; */
-        color: #FFFFFF;
+        color: #888888;
 		width: auto;
 	}
 
 	.toggled-on .nav-menu li:hover > a,
 	.toggled-on .nav-menu .children a {
 		background-color: transparent;
-		/* color: #141412; */
-        color: #FFFFFF;
+		color: #141412;
 	}
 
 	.toggled-on .nav-menu li a:hover,
 	.toggled-on .nav-menu ul a:hover {
-		background-color: #db572f;
-		color: #fff;
+		/* background-color: #db572f; */
+        background-color: #F9F9F9;
+		/* color: #fff; */
+        color: #141412;
 	}
 
 	ul.nav-menu,
