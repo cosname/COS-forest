@@ -13,13 +13,9 @@ pre code {
 pre .comment,
 pre .template_comment,
 pre .diff .header,
-pre .javadoc,
-code .comment,
-code .template_comment,
-code .diff .header,
-code .javadoc {
+pre .javadoc {
   /* color: #998; */
-  color: #68a0ff;
+  color: #00B91E;
   font-style: italic
 }
 
@@ -30,47 +26,29 @@ pre .javascript .title,
 pre .nginx .title,
 pre .subst,
 pre .request,
-pre .status,
-code .keyword,
-code .css .rule .keyword,
-code .winutils,
-code .javascript .title,
-code .nginx .title,
-code .subst,
-code .request,
-code .status {
-  color: #333;
+pre .status {
+  /* color: #333; */
+  color: #0000FF;
   font-weight: bold
 }
 
 pre .number,
 pre .hexcolor,
-pre .ruby .constant,
-code .number,
-code .hexcolor,
-code .ruby .constant {
+pre .ruby .constant {
   color: #099;
 }
 
 pre .string,
 pre .tag .value,
 pre .phpdoc,
-pre .tex .formula,
-code .string,
-code .tag .value,
-code .phpdoc,
-code .tex .formula {
+pre .tex .formula {
   color: #d14
 }
 
 pre .title,
 pre .id,
 pre .coffeescript .params,
-pre .scss .preprocessor,
-code .title,
-code .id,
-code .coffeescript .params,
-code .scss .preprocessor {
+pre .scss .preprocessor {
   color: #900;
   font-weight: bold
 }
@@ -78,22 +56,14 @@ code .scss .preprocessor {
 pre .javascript .title,
 pre .lisp .title,
 pre .clojure .title,
-pre .subst,
-code .javascript .title,
-code .lisp .title,
-code .clojure .title,
-code .subst {
+pre .subst {
   font-weight: normal
 }
 
 pre .class .title,
 pre .haskell .type,
 pre .vhdl .literal,
-pre .tex .command,
-code .class .title,
-code .haskell .type,
-code .vhdl .literal,
-code .tex .command {
+pre .tex .command {
   color: #458;
   font-weight: bold
 }
@@ -101,31 +71,22 @@ code .tex .command {
 pre .tag,
 pre .tag .title,
 pre .rules .property,
-pre .django .tag .keyword,
-code .tag,
-code .tag .title,
-code .rules .property,
-code .django .tag .keyword {
+pre .django .tag .keyword {
   color: #000080;
   font-weight: normal
 }
 
 pre .attribute,
 pre .variable,
-pre .lisp .body,
-code .attribute,
-code .variable,
-code .lisp .body {
+pre .lisp .body {
   color: #008080
 }
 
-pre .regexp,
-code .regexp {
+pre .regexp {
   color: #009926
 }
 
-pre .class,
-code .class {
+pre .class {
   color: #458;
   font-weight: bold
 }
@@ -134,21 +95,13 @@ pre .symbol,
 pre .ruby .symbol .string,
 pre .lisp .keyword,
 pre .tex .special,
-pre .prompt,
-code .symbol,
-code .ruby .symbol .string,
-code .lisp .keyword,
-code .tex .special,
-code .prompt {
+pre .prompt {
   color: #990073
 }
 
 pre .built_in,
 pre .lisp .title,
-pre .clojure .built_in,
-code .built_in,
-code .lisp .title,
-code .clojure .built_in {
+pre .clojure .built_in {
   color: #0086b3
 }
 
@@ -157,33 +110,23 @@ pre .pragma,
 pre .pi,
 pre .doctype,
 pre .shebang,
-pre .cdata,
-code .preprocessor,
-code .pragma,
-code .pi,
-code .doctype,
-code .shebang,
-code .cdata {
+pre .cdata {
   color: #999;
   font-weight: bold
 }
 
-pre .deletion,
-code .deletion {
+pre .deletion {
   background: #fdd
 }
 
-pre .addition,
-code .addition {
+pre .addition {
   background: #dfd
 }
 
-pre .diff .change,
-code .diff .change {
+pre .diff .change {
   background: #0086b3
 }
 
-pre .chunk,
-code .chunk {
+pre .chunk {
   color: #aaa
 }
