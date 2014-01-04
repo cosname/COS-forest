@@ -43,8 +43,7 @@
   <script src="<?php echo get_stylesheet_directory_uri() ?>/js/highlight.pack.js"></script>
   <script>
     jQuery(document).ready(function() {
-        jQuery('#bbpress-forums pre').each(function(i, e) {hljs.highlightBlock(e)});
-        jQuery('#bbpress-forums code.d4pbbc-code').each(function(i, e) {hljs.highlightBlock(e, null, true)});
+        jQuery('#bbpress-forums pre.d4pbbc-pre').each(function(i, e) {hljs.highlightBlock(e)});
     });
   </script>
   
