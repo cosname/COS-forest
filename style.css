@@ -136,25 +136,32 @@ fieldset {
  * ----------------------------------------------------------------------------
  */
 
+input,
+textarea {
+    /* border: 2px solid #d4d0ba; */
+	border: 1px solid #d4d0ba;
+}
+
+input:focus,
+textarea:focus {
+	/* border: 2px solid #c3c0ab; */
+    border: 1px solid #c3c0ab;
+	outline: 0;
+}
+
 /* Buttons */
 button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-	/* background: #e05d22; */ /* Old browsers */
-    background: #00a81b;
-	/* background: -webkit-linear-gradient(top, #e05d22 0%, #d94412 100%); */ /* Chrome 10+, Safari 5.1+ */
-    background: -webkit-linear-gradient(top, #00a81b 0%, #008611 100%);
-	/* background:   linear-gradient(to bottom, #e05d22 0%, #d94412 100%); */ /* W3C */
-    background:   linear-gradient(to bottom, #00a81b 0%, #008611 100%);
+    /* background: #e05d22; */ /* Old browsers */
+	background: #00a81b;
 	border: none;
-	/* border-bottom: 3px solid #b93207; */
-    border-bottom: 3px solid #006112;
-	border-radius: 2px;
+    border-radius: 0;
 	color: #fff;
 	display: inline-block;
 	/* padding: 11px 24px 10px; */
-    padding: 6px 10px 5px;
+    padding: 5px 10px 5px 10px;
 	text-decoration: none;
 }
 
@@ -166,12 +173,8 @@ input[type="reset"]:hover,
 input[type="submit"]:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus {
-	/* background: #ed6a31; */ /* Old browsers */
-    background: #00b91e;
-	/* background: -webkit-linear-gradient(top, #ed6a31 0%, #e55627 100%); */ /* Chrome 10+, Safari 5.1+ */
-    background: -webkit-linear-gradient(top, #00b91e 0%, #009913 100%);
-	/* background:   linear-gradient(to bottom, #ed6a31 0%, #e55627 100%); */ /* W3C */
-    background:   linear-gradient(to bottom, #00b91e 0%, #009913 100%);
+    /* background: #ed6a31; */ /* Old browsers */
+	background: #00b91e;
 	outline: none;
 }
 
@@ -179,19 +182,12 @@ button:active,
 input[type="submit"]:active,
 input[type="button"]:active,
 input[type="reset"]:active {
-	/* background: #d94412; */ /* Old browsers */
-    background: #008611;
-	/* background: -webkit-linear-gradient(top, #d94412 0%, #e05d22 100%); */ /* Chrome 10+, Safari 5.1+ */
-    background: -webkit-linear-gradient(top, #008611 0%, #00a81b 100%);
-	/* background:   linear-gradient(to bottom, #d94412 0%, #e05d22 100%); */ /* W3C */
-    background:   linear-gradient(to bottom, #008611 0%, #00a81b 100%);
-	border: none;
-	/* border-top: 3px solid #b93207; */
-    border-top: 3px solid #006112;
+    /* background: #d94412; */ /* Old browsers */
+	background: #008611; /* Old browsers */
+    border: none;
 	/* padding: 10px 24px 11px; */
-    padding: 5px 10px 6px;
+    padding: 5px 10px 5px 10px;
 }
-
 
 
 /**
