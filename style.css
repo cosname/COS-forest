@@ -64,7 +64,7 @@ input,
 select,
 textarea {
 	/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-    font-family: "Source Sans Pro", Helvetica, "Î¢ÈíÑÅºÚ", "Microsoft YaHei", "ËÎÌå", sans-serif;
+    font-family: "Source Sans Pro", Helvetica, "å¾®è½¯é›…é»‘", "Microsoft YaHei", "å®‹ä½“", sans-serif;
 }
 
 a:hover {
@@ -79,7 +79,7 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-family: Bitter, Georgia, "Î¢ÈíÑÅºÚ", "Microsoft YaHei", "ËÎÌå", serif;
+	font-family: Bitter, Georgia, "å¾®è½¯é›…é»‘", "Microsoft YaHei", "å®‹ä½“", serif;
 	line-height: 1.3;
 }
 
@@ -508,7 +508,7 @@ ul.nav-menu ul a:hover,
 
 .widget .widget-title {
 	/* font: 300 italic 20px "Source Sans Pro", Helvetica, sans-serif; */
-    font: 400 20px "Source Sans Pro", Helvetica, "Î¢ÈíÑÅºÚ", "Microsoft YaHei", "ËÎÌå", sans-serif;
+    font: 400 20px "Source Sans Pro", Helvetica, "å¾®è½¯é›…é»‘", "Microsoft YaHei", "å®‹ä½“", sans-serif;
 	margin: 0 0 10px;
 }
 

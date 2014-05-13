@@ -43,7 +43,11 @@
   <script src="<?php echo get_stylesheet_directory_uri() ?>/js/highlight.pack.js"></script>
   <script>
     jQuery(document).ready(function() {
-        jQuery('#bbpress-forums pre.d4pbbc-pre').each(function(i, e) {hljs.highlightBlock(e)});
+        hljs.configure({useBR: false});
+        jQuery('#bbpress-forums pre.d4pbbc-pre').each(function(i, e) {
+            if(jQuery(this).children('br').length) { hljs.configure({useBR: true}); }
+            hljs.highlightBlock(e);
+        });
     });
   </script>
   
