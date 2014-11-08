@@ -1057,3 +1057,7 @@ ul.nav-menu ul a:hover,
 pre.d4pbbc-pre {
     color: #141412;
 }
+
+#subscription-toggle {
+    margin-left: 0.5em;
+}
