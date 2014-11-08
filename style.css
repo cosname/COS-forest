@@ -640,7 +640,8 @@ ul.nav-menu ul a:hover,
     }
 
     .site-main .widget-area {
-        margin-right: 60px;
+        /* margin-right: 60px; */
+        margin-right: 0;
     }
 }
 
