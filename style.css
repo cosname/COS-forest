@@ -218,6 +218,16 @@ input[type="reset"]:active {
     width: 100%;
 }
 
+#cos-logo {
+    width: 100%;
+    text-align: center;
+}
+
+#cos-logo img {
+    width: 90%;
+    max-width: 521px;
+    max-height: 120px;
+}
 
 /**
  * 4.2 Navigation
