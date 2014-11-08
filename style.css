@@ -64,7 +64,7 @@ input,
 select,
 textarea {
     /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-    font-family: "Source Sans Pro", Helvetica, "微软雅黑", "Microsoft YaHei", "宋体", sans-serif;
+    font-family: "Source Sans Pro", Helvetica, "微软雅黑", "Microsoft YaHei", "Hiragino Sans GB", "宋体", sans-serif;
 }
 
 a:hover {
@@ -79,7 +79,7 @@ h4,
 h5,
 h6 {
     clear: both;
-    font-family: Bitter, Georgia, "微软雅黑", "Microsoft YaHei", "宋体", serif;
+    font-family: Bitter, Georgia, "微软雅黑", "Microsoft YaHei", "Hiragino Sans GB", "宋体", serif;
     line-height: 1.3;
 }
 
