@@ -85,5 +85,18 @@ function bbp_reply_menu_order() {
   echo $menu_order;
 }
 
+/* Implementation of [code] and [data] tags */
+function shortcode_code( $atts, $content = null ) {
+    $a = shortcode_atts( array( 'lang' => '' ), $atts );
+    $lang = $a['lang'];
+    return '<pre class="highlight ' . $lang . '">' . esc_html($content) . '</pre>';
+}
+add_shortcode( 'code', 'shortcode_code' );
+
+function shortcode_data( $atts, $content = null ) {
+    return '<pre>' . esc_html($content) . '</pre>';
+}
+add_shortcode( 'data', 'shortcode_data' );
+
 
 ?>
