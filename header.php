@@ -68,7 +68,7 @@
       
       <?php /* hard-coded. It's bad, but I need to use it. --Yixuan */ ?>
       <div id="cos-logo">
-          <a href="http://cos.name/">
+          <a href="http://cos.name/cn">
             <img src="<?php echo get_stylesheet_directory_uri() ?>/images/headers/cos-logo.png" />
           </a>
       </div>
