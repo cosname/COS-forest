@@ -89,12 +89,22 @@ function bbp_reply_menu_order() {
 function shortcode_code( $atts, $content = null ) {
     $a = shortcode_atts( array( 'lang' => '' ), $atts );
     $lang = $a['lang'];
-    return '<pre class="highlight ' . $lang . '">' . esc_html($content) . '</pre>';
+    // Remove line break (from old bbs)
+    $clean_content = str_ireplace( '<br />', '', $content );
+    // Remove p tag (from old bbs)
+    $clean_content = str_ireplace( '<p>', '', $clean_content );
+    $clean_content = str_ireplace( '</p>', '', $clean_content );
+    $clean_content = esc_html( $clean_content );
+    return '<pre class="highlight ' . $lang . '">' . $clean_content . '</pre>';
 }
 add_shortcode( 'code', 'shortcode_code' );
 
 function shortcode_data( $atts, $content = null ) {
-    return '<pre>' . esc_html($content) . '</pre>';
+    $clean_content = str_ireplace( '<br />', '', $content );
+    $clean_content = str_ireplace( '<p>', '', $clean_content );
+    $clean_content = str_ireplace( '</p>', '', $clean_content );
+    $clean_content = esc_html( $clean_content );
+    return '<pre>' . $clean_content . '</pre>';
 }
 add_shortcode( 'data', 'shortcode_data' );
 
