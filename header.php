@@ -44,7 +44,7 @@
   <script>
     jQuery(document).ready(function() {
         hljs.configure({useBR: false});
-        jQuery('#bbpress-forums pre.d4pbbc-pre').each(function(i, e) {
+        jQuery('#bbpress-forums pre.highlight').each(function(i, e) {
             if(jQuery(this).children('br').length) { hljs.configure({useBR: true}); }
             hljs.highlightBlock(e);
         });
