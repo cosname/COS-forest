@@ -475,7 +475,8 @@ div.bbp-topic-tags {
 }
 
 /* yixuan */
-#tertiary #bbp-search-form #bbp_search {
+#tertiary #bbp-search-form #bbp_search,
+#tertiary #bbp-search-form-baidu #bbp_search_baidu {
     width: 70%;
 }
 
